@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ASSIGMENT NO-4</title>
+</head>
+<style>
+    body{
+        border: 2px solid brown;
+        height: 950px;
+       margin-left: 350px;
+       margin-right: 380px;
+    }
+        h1{
+        border: 2px solid rgb(46, 46, 97);
+        background-color: rgb(46, 46, 97);
+        padding-top: 0px;
+        margin-top: 0%;
+        margin-bottom: 0px;
+        color: rgb(247, 246, 244);
+    }
+    h5{
+        border: 2px solid rgb(46, 46, 97);
+        background-color: rgb(46, 46, 97);
+        margin-top: 0px;
+        color: rgb(247, 246, 244);
+    }
+    .sup{
+        color: red;
+        font-size: large;
+        font-weight: bolder;
+    }
+    form{
+        margin-left: 10px;
+        margin-top: -15px;
+    }
+.name{
+    margin-top: 100px;
+}
+    .clientname{
+        margin-left: 110px;
+        padding-right: 54px;
+    }
+    .company{
+        margin-left: 129px;
+        padding-left: 5px;
+        padding-right: 50px;
+        margin-top: 10px;
+    }
+.title{
+        margin-left: 170px;
+        padding-left: 5px;
+        padding-right: 50px;
+        margin-top: 10px;
+}
+.department{
+        margin-left: 115px;
+        padding-left: 5px;
+        margin-top: 15px;
+}
+.radi{
+        margin-left: 26px;
+        padding-left: 100px;
+        margin-top: 20px;
+}
+.COM1{
+        margin-left: 77px;
+        padding-left: 5px;
+        padding-right: 207px;
+        margin-top: 5px;
+}
+.streetaddress{
+        margin-left: 150px;
+        padding-left: 53px;
+        margin-top: 15px;
+        color: rgb(206, 205, 202);
+}
+.COM2{
+        margin-left: 202px;
+        padding-left: 5px;
+        padding-right: 207px;
+        margin-top: 15px;
+}  
+.addressline2{
+        margin-left: 150px;
+        padding-left: 53px;
+        margin-top: 15px;
+        color: rgb(206, 205, 202);
+}
+.COM3{
+        margin-left: 202px;
+        padding-left: 5px;
+        margin-top: 15px;
+}
+.COM4{
+        padding-left: 5px;
+        padding-right: 7px;
+        margin-left: 15px;
+}
+.city{
+        margin-left: 173px;
+        padding-left: 30px;
+        margin-top: 5px;
+        color: rgb(206, 205, 202);
+}
+.religion{
+    margin-left: 138px;
+    padding-left: 29px;
+    color: rgb(206, 205, 202);
+}
+.COM5{
+        margin-left: 202px;
+        padding-left: 5px;
+        margin-right: 15px;
+        margin-top: 15px;
+}
+.COM6{
+    padding-left: 5px;
+    padding-right: 60px;
+   }
+.postal{
+        margin-left: 173px;
+        padding-left: 30px;
+        margin-top: 5px;
+        color: rgb(206, 205, 202);
+}
+.country{
+    margin-left: 65px;
+    padding-left: 29px;
+    color: rgb(206, 205, 202);
+}
+.CW{
+        margin-left: 72px;
+        padding-left: 5px;
+        margin-top: 15px;
+}
+.CL{
+    border:2px dashed black;
+    margin-left: 87px;
+    height: 50px;
+    padding-left: 130px;
+    padding-top: 30px;
+    padding-bottom: -70px;
+    margin-bottom: 10px;
+}
+.WH{
+        margin-left: 90px;
+        padding-left: 5px;
+        margin-top: 15px;
+}
+.WD{
+        margin-left: 97px;
+        padding-left: 5px;
+        margin-top: 15px;
+}
+.BC{
+        margin-left: 104px;
+        padding-left: 5px;
+        margin-top: 15px;
+}
+.AD{
+        margin-left: 200px;
+        padding-left: 5px;
+        margin-top: -15px; 
+}
+.submit{
+    margin-left: 270px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+.backimg{
+    background: url(https://www.2civility.org/wp-content/uploads/2020/11/client-information-1.jpeg);
+    height: 950px;
+
+}
+.name{
+    color: white;
+}
+</style>
+<body>
+    <div class="backimg">
+    <h1 align="center">Client Details</h1>
+    <h5 align="center">Enter the Details of all incoming Clients.</h5>
+<form>
+    <label for="CN" class="name">Client Name<sup class="sup">*</sup></label>  
+    <input type="text" name="CN" id="CN" class="clientname" required>
+
+    <br>
+    <label for="C" class="name">Company<sup class="sup">*</sup></label> 
+    <input type="text" name="C" id="C" class="company" required>
+
+    <br>
+    <label for="T" class="name">Title</label>  
+    <input type="text" name="T" id="T" class="title">
+
+    <br>
+    <label for="D" class="name">Department<sup class="sup">*</sup></label> 
+    <select class="department" required>
+        <option>-Select-</option>
+        <option>Finance</option>
+        <option>Operations Managment</option>
+        <option>Sales</option>
+        <option>Marketing</option>
+        <option>Production Planing</option>
+    </select>
+
+    <br>
+    <label class="name">Preferred contact method<sup class="sup">*</sup></label>
+    <input type="radio" name="Contact" id="Email" class="radi"><label for="Email">Email</label>
+    <input type="radio" name="Contact" id="Phone" ><label for="Phone">Phone</label>
+
+    <br><br>
+    <label class="name">Company address<sup class="sup">*</sup></label>
+    <input type="text" class="COM1" required> <br>
+    <label class="streetaddress">Street Address</label><br>
+    <input type="text" class="COM2" required> <br>
+    <label class="addressline2">Address Line 2</label> <br>
+    <input type="text" class="COM3" required>
+    <input type="text" class="COM4" required><br>
+    <label class="city">City</label>
+    <label class="religion">State/Relogion/Province</label> <br>
+    <input type="text" class="COM5" required>
+    <select class="COM6" required>
+        <option>-Select-</option>
+        <option>Pakistan</option>
+        <option>India</option>
+        <option>China</option>
+        <option>United States</option>
+        <option>United Kingdom</option>
+        <option>Turkey</option>
+        <option>Germany</option>
+    </select> <br>
+    <label class="postal">Postal/Zip Code</label>
+    <label class="country">Country</label>
+
+    <br><br>
+    <label class="name">Company Website<sup class="sup">*</sup></label>
+    <input type="url" class="CW" required>
+
+    <br><br>
+    <label class="name">Company LOGO</label>
+    <input type="file" class="CL">
+
+    
+    <br>
+    <label class="name">Working Hours<sup class="sup">*</sup></label>
+    <input type="hour" class="WH" required>
+
+    <br>
+    <label class="name">Working Days<sup class="sup">*</sup></label>
+    <input type="days" class="WD" required>
+    
+    <br>
+    <label class="name">Billing Cycle<sup class="sup">*</sup></label>
+    <input type="date" class="BC" required>
+
+    <br><br>
+    <label class="name">Additional Information</label><br>
+    <textarea name="" id="" cols="50" rows="8" class="AD"></textarea>
+    <br><br>
+    <input type="Submit" value="SUBMIT" class="submit"/>
+
+        </form>
+    </div>
+        </body>
+</html>
